@@ -26,13 +26,22 @@ For example, perform a search of all the sights in the state of California and f
 Javascript will catch the changes on the inputs fields, and show the data that matches with the criteria.
 
 ### Example for filters criteria
+To perform a search:
+
+- Go to the search form.
 ![alt text](./static/images/pagefilter1.png)
+- Enter "ca" in the State field.
+![alt text](./static/images/pagefilter1-flow1.png)
+- Enter "light" in the Shape field.
+![alt text](./static/images/pagefilter1-flow2.png)
+- Enter "el cajon" in the City field.
+![alt text](./static/images/pagefilter1-flow3.png)
 
 The web page filters the information based on the filter criteria, and shows them in real time. 
 
 # Summary
 
-Although the UFO sighting website has new filters, these filters are open, the user can put anything to search and the criteria may not match anything in the data, given zero results and a feeling that maybe the site does not work. Also to perform other searches, the user has to refresh the whole page.
+Although the UFO sighting website has new filters, these filters are open, the user can put anything to search and the criteria may not match anything in the data, given zero results and a feeling that maybe the site does not work. Also to perform other searches, the user has to refresh the whole page, and the user does not know how many UFO sightings are based on the filter criteria.
 
 Recommendations for updating the page are:
 
@@ -50,8 +59,10 @@ Feel free to explore what the web page will look like with these recommendations
 ### Drop-down menus view
 ![alt text](./static/images/pageDropdown.png)
 
-For example, perform a search of all the sights in the state of California and for shape triangule.
-Javascript will catch the changes on the inputs fields, and show the data that matches with the criteria.
+For example, for performing a search of all the UFO sightings in the state of California and for shape triangle. You just need, select the value "ca" in the drop-down menu of State, and the value "Triangle" on the Shape drop-down menu. 
+Javascript will catch the changes on the inputs fields, and show the data that matches with the criteria, and make the calculus of how many UFO sightings are.
+
+You can perform another search without refresh the whole page, just click on the button "Clean filters"
 
 ### Example for filters criteria
 ![alt text](./static/images/pagefilter3.png)
