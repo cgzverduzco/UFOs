@@ -96,12 +96,6 @@ function filterTable() {
   buildTable(filteredData);
 }
 
-
-
-// Build the table when the page loads
-buildTable(tableData);
-
-
 // Upgrade page.
 const uniqueDate = [...new Set(data.map(item => item.datetime))].sort();
 const uniqueCity = [...new Set(data.map(item => item.city))].sort();
@@ -144,3 +138,6 @@ createOptionBox(uniqueSphape, "shape", "Shape", "shapeOptions");
 // The listener for the upgrade page
 d3.selectAll("select").on("change", updateFilters);
 d3.selectAll("#clean-btn").on("click", updateFilters);
+
+// Build the table when the page loads
+buildTable(tableData);
