@@ -1,0 +1,39 @@
+body {
+    color: #f7f7f7;
+}
+
+.jumbotron {
+    background-image: url("../images/nasa.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+  }
+
+.wrapper ul{
+    list-style-type: none;
+    display:inline-table;
+    justify-content: center;
+ 
+}
+
+.wrapper li {
+    float: center;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid black;
+    text-align:center;
+    font-family: inherit; 
+    font-size: 1rem;
+    list-style-position:inside;
+}
+
+.wrapper label{
+    text-size-adjust: auto;
+    
+}
+
+.hide{
+    display:none;  
+  }
+
+.options{
+    
+}

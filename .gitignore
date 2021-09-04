@@ -29,6 +29,11 @@ share/python-wheels/
 # .DS_Store
 .DS_Store
 
+# files to ignore
+oldApp.js
+
+
+
 MANIFEST
 
 # PyInstaller
