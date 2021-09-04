@@ -30,11 +30,11 @@ To perform a search:
 
 - Go to the search form.
 ![alt text](./static/images/pagefilter1.png)
-- Enter "ca" in the State field.
+- Enter "ca" in the State field, and press enter o tab.
 ![alt text](./static/images/pagefilter1-flow1.png)
-- Enter "light" in the Shape field.
+- Enter "light" in the Shape field, and press enter o tab.
 ![alt text](./static/images/pagefilter1-flow2.png)
-- Enter "el cajon" in the City field.
+- Enter "el cajon" in the City field, and press enter o tab.
 ![alt text](./static/images/pagefilter1-flow3.png)
 
 The web page filters the information based on the filter criteria, and shows them in real time. 
